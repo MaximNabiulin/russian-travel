@@ -1,21 +1,7 @@
-/* Попытка выравнять как в макете, путем взаимного вычитания
-отступов блоков 'header' и 'header__lang-link' от верхней
-кромки страницы  */
-
 .header__lang-links {
-  padding-top: 18px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: flex;
-  align-items: stretch;
+  align-items: flex-end;
 }
-
-@media screen and (max-width: 767px) {
-  .header__lang-links {
-    padding-top: 15px;
-  }
-}
-
-/* @media screen and (min-width: 320px) and (max-width: 767px) {
-  .header__lang-links {
-    padding-top: 15px
-  }
-} */

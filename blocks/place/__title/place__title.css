@@ -1,8 +1,6 @@
 .place__title {
   margin: 0;
   align-self: end;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -25,12 +23,3 @@
     line-height: 1.1;
   }  
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 767px) {
-  .place__title {
-    width: calc(100% - 32px);
-    justify-self: center;
-    font-size: 32px;
-    line-height: 1.1;
-  }  
-} */

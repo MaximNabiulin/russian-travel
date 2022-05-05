@@ -1,5 +1,5 @@
 .lead__image {
-  margin: 0;
+  display: block;
   width: 100%;
   background-size: cover;
 }
